@@ -16,7 +16,7 @@ module.exports = {
     main: './src/index.tsx',
   },
   output: {
-    publicPath: '/',
+    publicPath: '/test-fron',
   },
   module: {
     rules: [

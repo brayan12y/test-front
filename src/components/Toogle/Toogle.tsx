@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-import darkMoon from '../../assets/icons/dark_moon.svg';
-import ligthSun from '../../assets/icons/ligth_sun.svg';
+import { IconMoon } from '../../icons/Icons';
 import './toogle.scss';
 
 const Toogle = () => {
@@ -23,7 +22,8 @@ const Toogle = () => {
         className='toogle__wrapper'
         onClick={handleActivedarkMode}
       >
-        <img width={15} height={15} src={darkMode ? ligthSun : darkMoon} />
+        {/* <img width={15} height={15} src={darkMode ? ligthSun : darkMoon} /> */}
+        <IconMoon />
         <strong className='toogle__text'>
           {darkMode ? 'Ligth Mode' : 'Dark Mode'}
         </strong>

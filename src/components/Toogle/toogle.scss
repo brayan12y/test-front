@@ -4,8 +4,11 @@
     align-items: center;
     cursor: pointer;
 
-    img {
+    svg {
+      width: 15px;
+      height: 15px;
       margin-right: 0.5rem;
+      color: var(--color__text);
     }
   }
   &__text {
