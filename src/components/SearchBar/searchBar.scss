@@ -1,0 +1,53 @@
+@import '../../sass/responsive';
+
+.searchBar__container {
+  padding-left: 1.5rem;
+  width: 100%;
+
+  @include xs-screen {
+    padding: 0;
+  }
+
+  &--searchWrapper {
+    height: 2.5rem;
+    max-width: 26rem;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 0px 4px #0000004d;
+    overflow: hidden;
+    border-radius: 0.4rem;
+
+    span {
+      height: 100%;
+      width: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--color__text);
+      background: var(--color__primary);
+    }
+
+    input {
+      height: 100%;
+      width: 100%;
+      border: 0;
+      padding: 0;
+      padding-left: 1rem;
+      font-size: 14px;
+      line-height: 17px;
+      color: var(--color__text);
+      background: var(--color__primary);
+
+      &::placeholder {
+        color: var(--color__text);
+      }
+
+      &:focus {
+        outline: none;
+      }
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import '../../sass/responsive';
+
+.countriesFilters__container {
+  padding-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: var(--color__text);
+
+  @include xs-screen {
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  &--clear {
+    color: var(--color__text);
+    background-color: var(--color__primary);
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 0px 0px 4px #0000004d;
+    margin-right: 0.4rem;
+    padding: 0.1rem;
+    cursor: pointer;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

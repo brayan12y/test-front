@@ -1,0 +1,23 @@
+@import '../../sass/responsive';
+
+.homeLayout__container {
+  background-color: var(--color__secondary);
+
+  &--wrapper {
+    max-width: 1260px;
+    margin: auto;
+    padding: 2rem 0;
+  }
+
+  &--filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    @include xs-screen {
+      flex-direction: column;
+      padding: 0;
+      max-width: 90%;
+      margin: auto auto 1rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+$color__primary: #ffffff;
+$color__secondary: #fafafa;
+$color__text: #000000;
+
+$color__primary--dark: #2b3743;
+$color__secondary--dark: #202d36;
+$color__text--dark: #ffffff;
+
+:root {
+  --color__primary: #{$color__primary};
+  --color__secondary: #{$color__secondary};
+  --color__text: #{$color__text};
+}
+
+[data-theme='dark'] {
+  --color__primary: #{$color__primary--dark};
+  --color__secondary: #{$color__secondary--dark};
+  --color__text: #{$color__text--dark};
+}

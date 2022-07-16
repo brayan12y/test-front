@@ -1,0 +1,14 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Nunito Sans', -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  height: 100vh;
+  min-height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--color__secondary);
+}

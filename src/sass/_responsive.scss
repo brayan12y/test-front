@@ -1,0 +1,22 @@
+// == RESPONSIVE ==
+@mixin xs-screen {
+  @media only screen and (max-width: 580px) {
+    @content;
+  }
+}
+@mixin s-screen {
+  @media only screen and (max-width: 900px) {
+    @content;
+  }
+}
+@mixin m-screen {
+  @media only screen and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin l-screen {
+  @media only screen and (max-width: 1250px) {
+    @content;
+  }
+}
+// == /RESPONSIVE ==

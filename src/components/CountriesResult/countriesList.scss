@@ -1,0 +1,6 @@
+.countriesList__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16.5rem, 1fr));
+  row-gap: 3rem;
+  background-color: var(--color__secondary);
+}
